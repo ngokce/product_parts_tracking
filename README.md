@@ -1,1 +1,1 @@
-# product_parts_tracking
+I developed a product part tracking system using Java within this project. I used MySQL to store my data. Employees can log in through the main page via an interface created with JavaFX, allowing them to view depot, product and part information, with the option to add new products if desired.
