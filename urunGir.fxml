@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.uruntakip1.urunGirController">
+   <children>
+      <Label layoutX="20.0" layoutY="90.0" text="Ürün Kodu" />
+      <Label layoutX="20.0" layoutY="125.0" text="Ürün Adı" />
+      <Label layoutX="20.0" layoutY="160.0" text="Ürün Miktarı" />
+      <TextField fx:id="urunKod" layoutX="110.0" layoutY="90.0" />
+      <TextField fx:id="urunAd" layoutX="110.0" layoutY="125.0" />
+      <TextField fx:id="urunMiktar" layoutX="110.0" layoutY="160.0" />
+      <Button fx:id="geriUrun" layoutX="50.0" layoutY="220.0" mnemonicParsing="false" onAction="#girisCalisan" text="Geri" />
+      <Button fx:id="urunEkleButon" layoutX="220.0" layoutY="220.0" mnemonicParsing="false" onAction="#urunEkle" text="Ekle" />
+      <TextField fx:id="hata" layoutX="131.0" layoutY="28.0" />
+   </children>
+</AnchorPane>

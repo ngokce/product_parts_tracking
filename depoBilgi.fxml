@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.uruntakip1.depoBilgiController">
+   <children>
+      <TableView fx:id="depoTable" layoutX="79.0" layoutY="43.0" prefHeight="200.0" prefWidth="386.0">
+        <columns>
+          <TableColumn fx:id="depoKodu" prefWidth="75.0" text="Depo Kodu" />
+          <TableColumn fx:id="depoAdi" prefWidth="120.0" text="Depo Adı" />
+            <TableColumn fx:id="depoSehir" prefWidth="87.0" text="Şehir" />
+            <TableColumn fx:id="depoKapasite" prefWidth="103.0" text="Kapasite" />
+        </columns>
+      </TableView>
+      <Button fx:id="geriUrun" layoutX="245.0" layoutY="281.0" mnemonicParsing="false" onAction="#girisCalisan" text="Geri" />
+   </children>
+</AnchorPane>
